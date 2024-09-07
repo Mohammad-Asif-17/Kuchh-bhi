@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.post-img{
+    height: 404px;
+    overflow: hidden;
+}
+ img{
+    width: 100%;
+}
+.blog-post-content p{
+    /* background-color: rebeccapurple; */
+    font-size: 18px;
+}
+.blog-post-content h1{
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+.more-post{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blogpost-meta{
+    display: flex;
+    justify-content: space-between;
+}
+.author-info{
+    margin: 12px 0;
+}
+.author-info div{
+    padding: 4px 0px;
+    font-family: var(--font2);
+}
+.social{
+    display: flex;
+    margin: 20px;
+}
+.social img{
+    height: 30px;
+    margin-left: 15px;
+}
+.social img:hover{
+    background-color: var(--main-bg-color);
+}

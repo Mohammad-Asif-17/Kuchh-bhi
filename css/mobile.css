@@ -1,0 +1,48 @@
+@media screen and (max-width: 1150px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+    }
+    .nav-left{
+        text-align: center;
+        flex-direction: column;
+    }
+    .contact-right{
+        display: none;
+    }
+    .home-artical{
+        flex-direction: column;
+    }
+    .home-artical img{
+        text-align: center;
+    }
+    .year-box{
+        top: 25px;
+        left: 60vw;
+        font-size: 11px;
+        display: flex;
+    }
+    .year-box div{
+        margin: 0;
+        padding:0 6px;
+    }
+    .home-artical img{
+        width: 60vw;
+    }
+    .form-input{
+        width: 50%;
+    }
+    .form-box input, textarea{
+        width: 66vw;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .social{
+        padding: 0;
+    }
+    .post-img{
+        height: auto;
+    }
+}
